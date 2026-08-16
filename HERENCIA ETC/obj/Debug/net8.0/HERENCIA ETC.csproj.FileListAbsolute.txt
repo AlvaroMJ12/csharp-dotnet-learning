@@ -1,0 +1,14 @@
+/home/alvaro/Documentos/C#/HERENCIA ETC/bin/Debug/net8.0/HERENCIA ETC
+/home/alvaro/Documentos/C#/HERENCIA ETC/bin/Debug/net8.0/HERENCIA ETC.deps.json
+/home/alvaro/Documentos/C#/HERENCIA ETC/bin/Debug/net8.0/HERENCIA ETC.runtimeconfig.json
+/home/alvaro/Documentos/C#/HERENCIA ETC/bin/Debug/net8.0/HERENCIA ETC.dll
+/home/alvaro/Documentos/C#/HERENCIA ETC/bin/Debug/net8.0/HERENCIA ETC.pdb
+/home/alvaro/Documentos/C#/HERENCIA ETC/obj/Debug/net8.0/HERENCIA ETC.GeneratedMSBuildEditorConfig.editorconfig
+/home/alvaro/Documentos/C#/HERENCIA ETC/obj/Debug/net8.0/HERENCIA ETC.AssemblyInfoInputs.cache
+/home/alvaro/Documentos/C#/HERENCIA ETC/obj/Debug/net8.0/HERENCIA ETC.AssemblyInfo.cs
+/home/alvaro/Documentos/C#/HERENCIA ETC/obj/Debug/net8.0/HERENCIA ETC.csproj.CoreCompileInputs.cache
+/home/alvaro/Documentos/C#/HERENCIA ETC/obj/Debug/net8.0/HERENCIA ETC.dll
+/home/alvaro/Documentos/C#/HERENCIA ETC/obj/Debug/net8.0/refint/HERENCIA ETC.dll
+/home/alvaro/Documentos/C#/HERENCIA ETC/obj/Debug/net8.0/HERENCIA ETC.pdb
+/home/alvaro/Documentos/C#/HERENCIA ETC/obj/Debug/net8.0/HERENCIA ETC.genruntimeconfig.cache
+/home/alvaro/Documentos/C#/HERENCIA ETC/obj/Debug/net8.0/ref/HERENCIA ETC.dll
