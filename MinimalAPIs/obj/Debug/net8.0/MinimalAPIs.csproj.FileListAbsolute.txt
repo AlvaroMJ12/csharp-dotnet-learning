@@ -23,3 +23,4 @@
 /home/alvaro/Documentos/C#/MinimalAPIs/obj/Debug/net8.0/MinimalAPIs.pdb
 /home/alvaro/Documentos/C#/MinimalAPIs/obj/Debug/net8.0/MinimalAPIs.genruntimeconfig.cache
 /home/alvaro/Documentos/C#/MinimalAPIs/obj/Debug/net8.0/ref/MinimalAPIs.dll
+/home/alvaro/Documentos/C#/MinimalAPIs/obj/Debug/net8.0/MinimalAPIs.sourcelink.json
