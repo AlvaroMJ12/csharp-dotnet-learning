@@ -5542,11 +5542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alvaro/Documentos/C#/MinimalAPIs.Tests/MinimalAPIs.Tests.csproj",
+      "projectUniqueName": "/home/alvaro/proyectos/C-/MinimalAPIs.Tests/MinimalAPIs.Tests.csproj",
       "projectName": "MinimalAPIs.Tests",
-      "projectPath": "/home/alvaro/Documentos/C#/MinimalAPIs.Tests/MinimalAPIs.Tests.csproj",
+      "projectPath": "/home/alvaro/proyectos/C-/MinimalAPIs.Tests/MinimalAPIs.Tests.csproj",
       "packagesPath": "/home/alvaro/.nuget/packages/",
-      "outputPath": "/home/alvaro/Documentos/C#/MinimalAPIs.Tests/obj/",
+      "outputPath": "/home/alvaro/proyectos/C-/MinimalAPIs.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/alvaro/.nuget/NuGet/NuGet.Config"
@@ -5561,8 +5561,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/alvaro/Documentos/C#/MinimalAPIs/MinimalAPIs.csproj": {
-              "projectPath": "/home/alvaro/Documentos/C#/MinimalAPIs/MinimalAPIs.csproj"
+            "/home/alvaro/proyectos/C-/MinimalAPIs/MinimalAPIs.csproj": {
+              "projectPath": "/home/alvaro/proyectos/C-/MinimalAPIs/MinimalAPIs.csproj"
             }
           }
         }

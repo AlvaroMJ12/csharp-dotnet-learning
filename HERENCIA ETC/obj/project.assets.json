@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alvaro/Documentos/C#/HERENCIA ETC/HERENCIA ETC.csproj",
+      "projectUniqueName": "/home/alvaro/proyectos/C-/HERENCIA ETC/HERENCIA ETC.csproj",
       "projectName": "HERENCIA ETC",
-      "projectPath": "/home/alvaro/Documentos/C#/HERENCIA ETC/HERENCIA ETC.csproj",
+      "projectPath": "/home/alvaro/proyectos/C-/HERENCIA ETC/HERENCIA ETC.csproj",
       "packagesPath": "/home/alvaro/.nuget/packages/",
-      "outputPath": "/home/alvaro/Documentos/C#/HERENCIA ETC/obj/",
+      "outputPath": "/home/alvaro/proyectos/C-/HERENCIA ETC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/alvaro/.nuget/NuGet/NuGet.Config"

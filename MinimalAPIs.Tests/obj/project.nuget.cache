@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LFDvA8dW7Eq22aqWMnXMjZiapPpYGgWLHU5LTz5UWX1/I09lMuKy/sY09kXs7TTISE8uhRIrsoELKC3lYTV34g==",
+  "dgSpecHash": "i4KxSyttc9/jMsAAYQGgJ2FRGBzkaNFxaAlm/iZsMCIfln4vDGz5fvF/4qk/4zIgR81cq0PBWgDr7Q/6Zo0Tug==",
   "success": true,
-  "projectFilePath": "/home/alvaro/Documentos/C#/MinimalAPIs.Tests/MinimalAPIs.Tests.csproj",
+  "projectFilePath": "/home/alvaro/proyectos/C-/MinimalAPIs.Tests/MinimalAPIs.Tests.csproj",
   "expectedPackageFiles": [
     "/home/alvaro/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/home/alvaro/.nuget/packages/microsoft.codecoverage/17.6.0/microsoft.codecoverage.17.6.0.nupkg.sha512",
