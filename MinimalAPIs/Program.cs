@@ -23,11 +23,11 @@ List<TodoItem> Tasks = new List<TodoItem>
 // Endpoint GET
 app.MapGet("/", () => "Hello World!");
 // Obtenemos toda la lista de la bd
-app.MapGet("/tasks", (TodoDbContext context) => context.TodoItems.ToList());
+app.MapGet("/tasks", async(TodoDbContext context) => await context.TodoItems.ToListAsync());
 // Obtenemos el de el id que queremos
-app.MapGet("/tasks/{id}", (int id, TodoDbContext context) =>
+app.MapGet("/tasks/{id}", async(int id, TodoDbContext context) =>
 {
-    var tareaEncontrada = context.TodoItems.FirstOrDefault( t => t.Id == id);
+    var tareaEncontrada = await context.TodoItems.FirstOrDefaultAsync( t => t.Id == id);
     if (tareaEncontrada is not null)
     {
         return Results.Ok(tareaEncontrada);
@@ -39,18 +39,18 @@ app.MapGet("/tasks/{id}", (int id, TodoDbContext context) =>
 });
 
 // Endpoit POST
-app.MapPost("/tasks", (TodoItem nuevaTarea, TodoDbContext context) =>
+app.MapPost("/tasks", async(TodoItem nuevaTarea, TodoDbContext context) =>
 {
-    context.TodoItems.Add(nuevaTarea);
-    context.SaveChanges();
+    await context.TodoItems.AddAsync(nuevaTarea);
+    await context.SaveChangesAsync();
 
     return Results.Created($"/tasks/{nuevaTarea.Id}", nuevaTarea);
 
 });
 
 // Endpoint DELETE
-app.MapDelete("/tasks/{id}", (int id, TodoDbContext context)=>{
-    var tareaEncontrada = context.TodoItems.FirstOrDefault(t => t.Id == id);
+app.MapDelete("/tasks/{id}", async(int id, TodoDbContext context)=>{
+    var tareaEncontrada = await context.TodoItems.FirstOrDefaultAsync(t => t.Id == id);
     if(tareaEncontrada is null)
     {
         return Results.NotFound("No se ha encontrado la tarea");
@@ -58,15 +58,15 @@ app.MapDelete("/tasks/{id}", (int id, TodoDbContext context)=>{
     else
     {
         context.TodoItems.Remove(tareaEncontrada);
-        context.SaveChanges();
+        await context.SaveChangesAsync();
         return Results.NoContent();
     }
 });
 
 // Endpont UPDATE
 
-app.MapPut("/tasks/{id}", (int id, TodoItem tareaActualizada, TodoDbContext context)=>{
-    var tareaEncontrada = context.TodoItems.FirstOrDefault(t=> t.Id == id);
+app.MapPut("/tasks/{id}", async(int id, TodoItem tareaActualizada, TodoDbContext context)=>{
+    var tareaEncontrada = await context.TodoItems.FirstOrDefaultAsync(t=> t.Id == id);
     if(tareaEncontrada is null)
     {
         return Results.NotFound("Tarea no encontrada");
@@ -75,7 +75,7 @@ app.MapPut("/tasks/{id}", (int id, TodoItem tareaActualizada, TodoDbContext cont
     {
         tareaEncontrada.Description = tareaActualizada.Description;
         tareaEncontrada.State = tareaActualizada.State;
-        context.SaveChanges();
+        await context.SaveChangesAsync();
 
         return Results.NoContent();
     }
