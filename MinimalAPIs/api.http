@@ -12,3 +12,15 @@ Content-Type: application/json
 
 ### Obtener tarea por id
 GET http://localhost:5291/tasks/1
+
+### PUT
+PUT http://localhost:5291/tasks 
+Content-Type: application/json
+
+{
+    "description": "Completar mi primer UPDATE CRUD asíncrono con SQLite",
+    "state": "InProgress"
+}
+
+### Delete
+DELETE http://localhost:5291/tasks/2
